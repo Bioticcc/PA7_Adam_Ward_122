@@ -25,17 +25,9 @@ public:
 	Data() : recordNumber(0), ID(0), units(0), name("none"), email("none"), program("none"), level("none"), numAbsences(0),datesOfAbsences() {}
 
 	//copy constructor:
-	Data(const Data& t) {
-		recordNumber = t.recordNumber;
-		ID = t.ID;
-		units = t.units;
-		name = t.name;
-		email = t.email;
-		program = t.program;
-		level = t.level;
-		numAbsences = t.numAbsences;
-		Stack datesOfAbsences(t.datesOfAbsences); //i think this works for copy? i never use it anyway, but im a bit concerned.
-	}
+	Data(const Data& t) :
+		recordNumber(t.recordNumber), ID(t.ID), units(t.units), name(t.name), email(t.email), program(t.program), level(t.level), numAbsences(t.numAbsences), datesOfAbsences(t.datesOfAbsences) {}
+	
 
 	//deconstructor:
 	~Data() {}
@@ -49,7 +41,7 @@ public:
 	string getProgram() { return program; }
 	string getLevel() { return level; }
 	int getNumAbsences() { return numAbsences; }
-
+	vector<string> getDatesOfAbsences() { return datesOfAbsences.getDatesVect(); }
 
 	//setters
 	void setRecordNumber(int t) {recordNumber = t;}
@@ -60,6 +52,9 @@ public:
 	void setProgram(string t) { program = t; }
 	void setLevel(string t) { level = t; }
 	void setNumAbsences(int t) { numAbsences = t; }
+	void setAddDateOfAbsence(string date) { datesOfAbsences.push(date); }
+
+
 
 };
 
