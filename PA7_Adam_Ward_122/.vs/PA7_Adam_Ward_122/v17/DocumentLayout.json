@@ -3,23 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\ListT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|solutionrelative:ListT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|solutionrelative:Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|solutionrelative:Data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|solutionrelative:Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\NodeT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|solutionrelative:NodeT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Desktop\\CS\\Cpts-122 PAs\\PA-Links\\classList.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FA4E9FA-A8B3-4072-92FF-949E41E6F570}|PA7_Adam_Ward_122.vcxproj|solutionrelative:Header.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,52 +37,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-01T19:30:16.791Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Stack.h",
-              "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Stack.h",
-              "RelativeDocumentMoniker": "Stack.h",
-              "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Stack.h",
-              "RelativeToolTip": "Stack.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAABuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-05T19:30:14.259Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Stack.h",
+              "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Stack.h",
+              "RelativeDocumentMoniker": "Stack.h",
+              "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Stack.h",
+              "RelativeToolTip": "Stack.h",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-05T19:30:14.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Data.h",
               "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Data.h",
               "RelativeDocumentMoniker": "Data.h",
               "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Data.h",
               "RelativeToolTip": "Data.h",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAiwDYAAAA6AAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-05T19:13:36.397Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ListT.h",
+              "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\ListT.h",
+              "RelativeDocumentMoniker": "ListT.h",
+              "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\ListT.h",
+              "RelativeToolTip": "ListT.h",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-05T21:23:03.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NodeT.h",
+              "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\NodeT.h",
+              "RelativeDocumentMoniker": "NodeT.h",
+              "ToolTip": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\NodeT.h",
+              "RelativeToolTip": "NodeT.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-05T21:04:12.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Header.h",
               "DocumentMoniker": "C:\\Users\\jeezu\\Documents\\GitHub\\PA7_Adam_Ward_122\\PA7_Adam_Ward_122\\Header.h",
               "RelativeDocumentMoniker": "Header.h",
@@ -82,12 +115,11 @@
               "RelativeToolTip": "Header.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAwB0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-01T19:28:44.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T19:28:44.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "classList.csv",
               "DocumentMoniker": "C:\\Users\\jeezu\\Desktop\\CS\\Cpts-122 PAs\\PA-Links\\classList.csv",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\CS\\Cpts-122 PAs\\PA-Links\\classList.csv",

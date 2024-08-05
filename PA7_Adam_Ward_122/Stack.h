@@ -45,8 +45,8 @@ public:
 		return datesVect;
 	};
 
-	friend Data; //dunno if this is needed but I think i recall this being helpful a couple PA's ago, so why not 
+	//friend Data; //dunno if this is needed but I think i recall this being helpful a couple PA's ago, so why not 
 };
 
 
-#endif // STACK_H
+#endif 
