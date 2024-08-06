@@ -52,7 +52,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\Desktop\CS\Cpts-122 PAs\PA-Links\classList.csv">
+    <None Include="classList.csv">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

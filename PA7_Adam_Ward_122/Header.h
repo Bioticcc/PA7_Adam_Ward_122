@@ -21,7 +21,7 @@ Description: Wacky attendance tracker thang idk
 #include <fstream>
 #include <sstream>
 
-using std::getline;
+//using std::getline;
 using std::ifstream;
 using std::ofstream;
 using std::cout;

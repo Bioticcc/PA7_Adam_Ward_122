@@ -37,17 +37,28 @@ public:
 
 	//read function, will read in data for newNode, then call insert and add it to the linked list!
 	NodeT<T>* importCsv(string fileName) {
+		cout << "test1\n";
 		//stores read data to be inserted into list
 		T record; 
 		//opening csv
-		ifstream input;
-		input.open(fileName, 'r');
+		//ifstream input.open(fileName, 'r');
+		ifstream input(fileName);
+
+		if (input.is_open()) { cout << "test2\n"; }
+		else cout << "test3\n";
+		cout << "test2.5\n";
+
 		//reading csv and saving to string
+
 		string line;
 		getline(input, line); //skipping first line
+		cout << "Header:" << line << "\n";
+		cout << "test5\n";
 
+		
 		while (getline(input, line)) {
-			
+			cout << "test5.5";
+			cout << line;
 			std::istringstream parse(line);
 			int n1, n2, n3;
 			string s1, s2, s3, s4;

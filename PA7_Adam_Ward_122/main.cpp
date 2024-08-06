@@ -17,7 +17,7 @@ int main(void) {
 	//NodeT<Data> headPtr(data);
 	ListT<Data> list;
 	list.importCsv("classList.csv");
-	list.printList();
+	//list.printList();
 
 
 }
