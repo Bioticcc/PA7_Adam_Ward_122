@@ -21,14 +21,12 @@ Description: Wacky attendance tracker thang idk
 #include <fstream>
 #include <sstream>
 
-//using std::getline;
 using std::ifstream;
 using std::ofstream;
 using std::cout;
 using std::cin;
 using std::string;
 using std::vector;
-
-
+using std::endl;
 
 #endif 

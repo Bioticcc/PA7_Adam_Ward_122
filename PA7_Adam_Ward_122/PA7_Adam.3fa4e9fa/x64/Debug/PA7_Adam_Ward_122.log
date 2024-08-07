@@ -1,5 +1,20 @@
 ﻿  ListT.cpp
   main.cpp
 C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(98,12): warning C4101: 'pos': unreferenced local variable
+  (compiling source file 'main.cpp')
+  C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(98,12):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\main.cpp(18,14):
+  	see reference to class template instantiation 'ListT<Data>' being compiled
+  	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(81,12):
+  	while compiling class template member function 'NodeT<T> *ListT<T>::importCsv(std::string)'
+          with
+          [
+              T=Data
+          ]
+  		C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\main.cpp(19,16):
+  		see the first reference to 'ListT<Data>::importCsv' in 'main'
+  
   Generating Code...
   PA7_Adam_Ward_122.vcxproj -> C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\x64\Debug\PA7_Adam_Ward_122.exe
