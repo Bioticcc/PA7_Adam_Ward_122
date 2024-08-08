@@ -1,5 +1,7 @@
 #include "Header.h";
 #include "ListT.h"
+#include "Menu.h"
+
 
 int main(void) {
 
@@ -15,9 +17,14 @@ int main(void) {
 	*/
 	//Data data;
 	//NodeT<Data> headPtr(data);
+
+	Menu menu;
+	menu.runProgram();
+
+	/*
 	ListT<Data> list;
 	list.importCsv("classList.csv");
-	//list.printList();
-
+	list.printList();
+	*/
 
 }

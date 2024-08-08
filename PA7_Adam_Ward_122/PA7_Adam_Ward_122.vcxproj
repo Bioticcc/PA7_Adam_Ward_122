@@ -132,6 +132,7 @@
     <ClCompile Include="func.cpp" />
     <ClCompile Include="ListT.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="NodeT.cpp" />
     <ClCompile Include="Stack.cpp" />
   </ItemGroup>
@@ -139,6 +140,7 @@
     <ClInclude Include="Data.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="ListT.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="NodeT.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>

@@ -10,8 +10,8 @@ class Data {
 private:
 	int recordNumber;
 	int ID;
-	int units;
-
+	
+	string units;
 	string name;
 	string email;
 	string program;
@@ -22,7 +22,7 @@ private:
 	Stack datesOfAbsences;
 public:
 	//default constructor:
-	Data() : recordNumber(0), ID(0), units(0), name("none"), email("none"), program("none"), level("none"), numAbsences(0),datesOfAbsences() {}
+	Data() : recordNumber(0), ID(0), units("none"), name("none"), email("none"), program("none"), level("none"), numAbsences(0), datesOfAbsences() {}
 
 	//copy constructor:
 	Data(const Data& t) :
@@ -35,7 +35,7 @@ public:
 	//getters
 	int getRecordNumber() {return recordNumber;}
 	int getID() { return ID; }
-	int getUnits() { return units; }
+	string getUnits() { return units; }
 	string getName() { return name; }
 	string getEmail() { return email; }
 	string getProgram() { return program; }
@@ -46,7 +46,7 @@ public:
 	//setters
 	void setRecordNumber(int t) {recordNumber = t;}
 	void setID(int t) { ID = t; }
-	void setUnits(int t) { units = t; }
+	void setUnits(string t) {units = t; }
 	void setName(string t) { name = t; }
 	void setEmail(string t) { email = t; }
 	void setProgram(string t) { program = t; }
