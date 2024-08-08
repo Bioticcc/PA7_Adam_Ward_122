@@ -45,6 +45,7 @@ public:
 		getline(input, line); //skipping header
 
 		while (!input.eof()) {
+			name = "";
 			tokens.clear(); //resetting vector every record
 			getline(input, line);
 			if (line == "") {
@@ -74,13 +75,14 @@ public:
 				case 2:
 					//cout << token << "|i: " << i << endl;
 					name.append(token);
+					name.append(", ");
 					line.erase(line.find(token), token.length());
 					break;
 				case 3:
 					//cout << token << "|i: " << i << endl;
 					//add last name to first
 					name.append(token);
-					record.setName(token);
+					record.setName(name);
 					line.erase(line.find(token), token.length());
 					break;
 				case 4:
@@ -138,7 +140,6 @@ public:
 		}
 	}
 
-	
 };
 
 

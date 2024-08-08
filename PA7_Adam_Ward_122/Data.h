@@ -51,8 +51,8 @@ public:
 	void setEmail(string t) { email = t; }
 	void setProgram(string t) { program = t; }
 	void setLevel(string t) { level = t; }
-	void setNumAbsences(int t) { numAbsences = t; }
-	void setAddDateOfAbsence(string date) { datesOfAbsences.push(date); }
+	void setNumAbsences(int t) { numAbsences+=t; }
+	void setDateOfAbsence(string date) { datesOfAbsences.push(date); }
 
 
 
