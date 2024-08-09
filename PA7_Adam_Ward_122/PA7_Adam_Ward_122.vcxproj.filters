@@ -61,5 +61,8 @@
     <None Include="classList.csv">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="master.csv">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

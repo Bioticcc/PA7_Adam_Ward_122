@@ -69,6 +69,107 @@ public:
 		return 1;
 	}
 
+	NodeT<Data>* importMaster(string fileName) {
+		Data record; vector<string> tokens;
+		string token, line, name;
+		int token1;
+		ifstream input(fileName);
+		while (!input.eof()) {
+			name = "";
+			tokens.clear(); 
+			getline(input, line);
+			if (line == "") {
+				break;
+			}
+			std::istringstream s(line);
+			for (int i = 0; i < 9; i++) {
+				getline(s, token, ',');
+				size_t pos;
+				tokens.push_back(token);
+				switch (i)
+				{
+				case 0:
+					token1 = std::stoi(token);
+					record.setRecordNumber(token1);
+
+					line.erase(line.find(token), token.length());
+					break;
+				case 1:
+
+					token1 = std::stoi(token);
+					record.setID(token1);
+					line.erase(line.find(token), token.length());
+					break;
+				case 2:
+					name.append(token);
+					name.append(", ");
+					line.erase(line.find(token), token.length());
+					break;
+				case 3:
+					name.append(token);
+					record.setName(name);
+					line.erase(line.find(token), token.length());
+					break;
+				case 4:
+					record.setEmail(token);
+					line.erase(line.find(token), token.length());
+					break;
+				case 5:
+					record.setUnits(token);
+					line.erase(line.find(token), token.length());
+					break;
+				case 6:
+					record.setProgram(token);
+					line.erase(line.find(token), token.length());
+					break;
+
+				case 7:
+					record.setLevel(token);
+					line.erase(line.find(token), token.length());
+					break;
+				case 8:
+					record.setNumAbsences(stoi(token));
+					line.erase(line.find(token), token.length());
+					break;
+				}
+
+			}
+			line.erase(0, 9);
+			record.setDateOfAbsence(line); //oops gotta split this up and thats gonna require actual effort :( sadge
+
+			list.headPtr = list.insert(list.headPtr, record);
+		}
+		return list.headPtr;
+	}
+
+	NodeT<Data>* loadMaster(string fileName) {
+		ifstream input(fileName);
+		string line;
+		if (!getline(input,line)) {
+			cout << "No previously saved master list!\n";
+			input.close();
+			return;
+		}
+		else {
+			//list.importCsv("master.csv"); AGH I NEED TO MAKE ANOTHER ONE (I realize I could just edit importCsv, but 
+			//too be entirely honest with you it would look ugly and take a lot longer so im gonna just do the boring easy route 
+			list.headPtr = importMaster("master.csv");
+			
+			/*NodeT<Data>* curr = list.headPtr;
+			cout << "TEST: " << curr->data.datesOfAbsences.peek();
+			IT WORKS RAHHHHHHHHHHHHH (I was expecting this to be a weekend long thing but NAY)*/
+			input.close();
+			return list.headPtr;
+		}
+	}
+
+	int store
+
+
+
+
+
+
 	int runProgram() {
 		while (1) {
 			system("cls");
@@ -80,6 +181,7 @@ public:
 				break;
 			case 2:
 				//load master list (read from master.csv into linked list? or completely seperate list idk)
+				list.headPtr = loadMaster("master.csv");
 				break;
 			case 3:
 				//store master list (write to master.csv from linked list or completely sepereate list idk)
@@ -99,6 +201,7 @@ public:
 			
 			
 			}
+			system("pause");
 			
 		}
 	}

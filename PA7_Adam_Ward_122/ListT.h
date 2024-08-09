@@ -42,8 +42,9 @@ public:
 		string name;
 		int token1;
 		ifstream input(fileName); 
-		getline(input, line); //skipping header
-
+	
+		
+		getline(input, line);
 		while (!input.eof()) {
 			name = "";
 			tokens.clear(); //resetting vector every record

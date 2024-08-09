@@ -19,8 +19,9 @@ private:
 
 	//extra additions involving stack class
 	int numAbsences;
-	Stack datesOfAbsences;
 public:
+	Stack datesOfAbsences;
+
 	//default constructor:
 	Data() : recordNumber(0), ID(0), units("none"), name("none"), email("none"), program("none"), level("none"), numAbsences(0), datesOfAbsences() {}
 
