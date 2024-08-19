@@ -33,7 +33,6 @@ public:
 		}
 	}
 
-
 	NodeT<T>* importCsv(string fileName) {
 		T record; //for storing read data before inserting into list
 		vector<string> tokens; //for storing read words before inserting into record
@@ -122,7 +121,6 @@ public:
 
 	}
 
-
 	void printList() {
 		//cout << "test";
 		NodeT<T>*curr = headPtr;
@@ -139,6 +137,18 @@ public:
 			cout << std::endl;
 			curr = curr->next;
 		}
+	}
+
+	NodeT<T>* deleteList() {
+		NodeT<T>* temp = headPtr->next;
+		while (temp != NULL) {
+			NodeT<T>* next = temp->next;
+			delete temp;
+			temp = next;
+		}
+		delete headPtr;
+		headPtr = NULL;
+		return headPtr;
 	}
 
 };
