@@ -31,15 +31,7 @@ public:
 		cout << "| (7) Exit\n";
 		cout << "|(1-7): ";
 		cin >> choice;
-		if (!std::isdigit(choice)) {
-			//if the user inputs a letter character: should stop shenanigans
-			//for some reason it does NOT stop shenanigans :(			
-			choice = 0;
-			return choice;
-		}
-		else if (std::isdigit(choice)) {
-			return choice;
-		}
+		return choice;
 	}
 
 	int getChoice2() {
@@ -231,7 +223,6 @@ public:
 
 			NodeT<Data>* curr = list.headPtr;
 			while (curr != nullptr) {
-
 				if (curr->data.datesOfAbsences.peek() != "") {
 					cout << "|Student: " << curr->data.getName() << "\n";
 					cout << "|---->Last Absence: " << curr->data.datesOfAbsences.peek() << "\n";
@@ -241,8 +232,18 @@ public:
 		}
 		else if (choice == 2) {
 			//all students with absences that match or exceed given x
+			int i = 0;
+			cout << "|VIEWING REPORT: All Students, Specified Absence Threshold (Enter Absence Threshold): ";
+			cin >> i;
+			NodeT<Data>* curr = list.headPtr;
+			while (curr != nullptr) {
+				if (curr->data.getNumAbsences() >= i) {
+					cout << "|Student: " << curr->data.getName() << "\n";
+					cout << "|---->Number of absences: " << curr->data.getNumAbsences() << "\n";
+				}
+				curr = curr->next;
+			}
 		}
-		system("pause");
 		return 1;
 	}
 
@@ -280,9 +281,9 @@ public:
 			case 7:
 				exit(1);
 				break;
-			default:
-				cout << "\nError, invalid input.\n";
-				break;
+			//default:
+				//cout << "\nError, invalid input.\n";
+				//break;
 			}
 			system("pause");
 		}
