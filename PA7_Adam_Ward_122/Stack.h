@@ -31,8 +31,14 @@ public:
 	
 	//peek()
 	string peek() {
-		return datesVect.back();
+		if (datesVect.size() != 0) {
+			return datesVect.back();
+		}
+		else {
+			return "No absences recorded";
+		}
 	}
+
 
 	//isempty()
 	int isEmpty() {

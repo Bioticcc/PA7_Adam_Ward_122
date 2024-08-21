@@ -67,7 +67,8 @@ public:
 		timeSTR.append(std::to_string(now->tm_mon + 1));
 		timeSTR.append("-");
 		timeSTR.append(std::to_string(now->tm_mday));
-		//traversing list and asking if student is marke absent, yae or nae
+		
+		//traversing list and asking if student is marked absent, yae or nae
 		NodeT<Data>* curr = list.headPtr;
 		char a;
 		while (curr != nullptr) {
@@ -90,7 +91,9 @@ public:
 
 	NodeT<Data>* importMaster(string fileName) {
 		//free(list.headPtr);
-		list.headPtr = list.deleteList();
+		if (list.headPtr != nullptr) {
+			list.headPtr = list.deleteList();
+		}
 		Data record; vector<string> tokens;
 		string token, line, name;
 		int token1;
@@ -226,6 +229,8 @@ public:
 				if (curr->data.datesOfAbsences.peek() != "") {
 					cout << "|Student: " << curr->data.getName() << "\n";
 					cout << "|---->Last Absence: " << curr->data.datesOfAbsences.peek() << "\n";
+					cout << "|---->Total Absences: " << curr->data.getNumAbsences() << "\n";
+					cout << "|------------------------------------------->\n\n";
 					curr = curr->next;
 				}
 			}
