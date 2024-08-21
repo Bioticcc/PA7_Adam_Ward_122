@@ -126,7 +126,7 @@ public:
 					break;
 				case 2:
 					name.append(token);
-					name.append(", ");
+					name.append(",");
 					line.erase(line.find(token), token.length());
 					break;
 				case 3:
@@ -260,6 +260,9 @@ public:
 			case 1:
 				//load list (read from classList.csv)
 				//list.headPtr = list.deleteList();
+				if (list.headPtr != nullptr) {
+					list.headPtr = list.deleteList();
+				}
 				list.importCsv("classList.csv");
 				break;
 			case 2:

@@ -1,40 +1,42 @@
-﻿  Menu.cpp
-C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(111,12): warning C4101: 'pos': unreferenced local variable
-  (compiling source file 'Menu.cpp')
-  
-C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(58,12): warning C4101: 'pos': unreferenced local variable
-  (compiling source file 'Menu.cpp')
-  C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(58,12):
-  the template instantiation context (the oldest one first) is
-  	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(14,14):
-  	see reference to class template instantiation 'ListT<Data>' being compiled
-  	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(36,12):
-  	while compiling class template member function 'NodeT<T> *ListT<T>::importCsv(std::string)'
-          with
-          [
-              T=Data
-          ]
-  		C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(263,19):
-  		see the first reference to 'ListT<Data>::importCsv' in 'Menu::runProgram'
-  
+﻿  func.cpp
+  ListT.cpp
   main.cpp
 C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(111,12): warning C4101: 'pos': unreferenced local variable
   (compiling source file 'main.cpp')
   
-C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(58,12): warning C4101: 'pos': unreferenced local variable
+C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(61,12): warning C4101: 'pos': unreferenced local variable
   (compiling source file 'main.cpp')
-  C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(58,12):
+  C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(61,12):
   the template instantiation context (the oldest one first) is
   	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(14,14):
   	see reference to class template instantiation 'ListT<Data>' being compiled
-  	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(36,12):
+  	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(39,12):
   	while compiling class template member function 'NodeT<T> *ListT<T>::importCsv(std::string)'
           with
           [
               T=Data
           ]
-  		C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(263,19):
+  		C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(266,19):
+  		see the first reference to 'ListT<Data>::importCsv' in 'Menu::runProgram'
+  
+  Menu.cpp
+C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(111,12): warning C4101: 'pos': unreferenced local variable
+  (compiling source file 'Menu.cpp')
+  
+C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(61,12): warning C4101: 'pos': unreferenced local variable
+  (compiling source file 'Menu.cpp')
+  C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(61,12):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(14,14):
+  	see reference to class template instantiation 'ListT<Data>' being compiled
+  	C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\ListT.h(39,12):
+  	while compiling class template member function 'NodeT<T> *ListT<T>::importCsv(std::string)'
+          with
+          [
+              T=Data
+          ]
+  		C:\Users\jeezu\Documents\GitHub\PA7_Adam_Ward_122\PA7_Adam_Ward_122\Menu.h(266,19):
   		see the first reference to 'ListT<Data>::importCsv' in 'Menu::runProgram'
   
   Generating Code...

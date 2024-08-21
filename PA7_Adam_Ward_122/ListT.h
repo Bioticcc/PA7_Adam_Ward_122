@@ -18,6 +18,9 @@ public:
 
 	//insert function
 	NodeT<T>* insert(NodeT<T>* headPtr, T& data) {
+		
+		
+
 		NodeT<T>* newNode = new NodeT<T>(data);
 	
 		if (!headPtr) {
@@ -41,7 +44,7 @@ public:
 		string name;
 		int token1;
 		ifstream input(fileName); 
-	
+		
 		
 		getline(input, line);
 		while (!input.eof()) {
@@ -150,7 +153,6 @@ public:
 		headPtr = NULL;
 		return headPtr;
 	}
-
 };
 
 
